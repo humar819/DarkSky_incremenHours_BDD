@@ -1,0 +1,111 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-15T04:42:13.724Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3061000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SharedSD.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify timeline is displayed in correct format",
+        "description": "",
+        "id": "dark-sky-home-page-feature;verify-timeline-is-displayed-in-correct-format",
+        "after": [
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.SharedSD.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the Dark Sky home page",
+            "match": {
+              "location": "stepDefinition.HomePageSD.i_am_on_the_dark_sky_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5299000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter city into search text field on home screen",
+            "match": {
+              "location": "stepDefinition.HomePageSD.i_enter_city_into_search_text_field_on_home_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4155000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify city’s time zone",
+            "match": {
+              "location": "stepDefinition.HomePageSD.i_verify_city_s_time_zone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify timeline is displayed with two hours incremented",
+            "match": {
+              "location": "stepDefinition.HomePageSD.i_verify_timeline_is_displayed_with_two_hours_incremented()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@homepage"
+          }
+        ]
+      }
+    ],
+    "name": "Dark Sky Home Page Feature",
+    "description": "",
+    "id": "dark-sky-home-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/HomePage.feature",
+    "tags": [
+      {
+        "name": "@web",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

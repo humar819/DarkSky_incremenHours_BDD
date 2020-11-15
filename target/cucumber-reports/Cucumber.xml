@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.987">
+<testcase classname="Dark Sky Home Page Feature" name="Verify timeline is displayed in correct format" time="12.855">
+<system-out><![CDATA[Given I am on the Dark Sky home page........................................passed
+When I enter city into search text field on home screen.....................passed
+And I verify city’s time zone...............................................passed
+Then I verify timeline is displayed with two hours incremented..............passed
+]]></system-out>
+</testcase>
+</testsuite>
